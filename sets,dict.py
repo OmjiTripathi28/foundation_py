@@ -25,3 +25,8 @@ S = {} What is the type of S?
 
 #1.Write a program to create a dictionary of Hindi words with values as their English translation. 
 # Provide user with an option to look it up!
+#4.Replace the double space from problem 3 with single spaces.
+print(statement.replace("  "," "))
+
+#5.Write a program to format the following letter using escape sequence characters. Letter = "Dear Harry, this python course is nice. Thanks!
+print("Dear omii, \nI'm fine.\nThanks!")
