@@ -64,7 +64,7 @@ for i in range (0,4):
     lang = input("enter your fav lang :")
     fav_lang.update({name : lang})
 
-print(fav_lang)"""
+print(fav_lang)
 
 #6.If the names of 2 friends are same; what will happen to the program in problem 6?
 fav_lan = {
@@ -75,4 +75,15 @@ for i in range (0,4):
     lang = input("enter your fav lang :")
     fav_lan.update({name : lang})
 
-print(fav_lan)
+print(fav_lan)"""
+
+#7.If languages of two friends are same; what will happen to the program in problem 6?
+fav_lang3 = {
+
+}
+for i in range (0,4):
+    name = input("enter your name :")
+    lang = input("enter your fav lang :")
+    fav_lang3.update({name : lang})
+
+print(fav_lang3)
