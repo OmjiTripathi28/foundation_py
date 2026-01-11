@@ -45,7 +45,7 @@ print(nums)
 mix = set ()
 mix.add(18)
 mix.add("18")
-print(mix)"""
+print(mix)
 
 #4.What will be the length of following set S:
 
@@ -53,5 +53,15 @@ s = set()
 s.add(20)
 s.add(20.0)
 s.add('20') # length of s after these operations?
-print(s) #length is 2
+print(s) #length is 2"""
 
+#5.Create an empty dictionary. Allow 4 friends to enter their favorite language as value and use key as their names. Assume that the names are unique.
+fav_lang = {
+
+}
+for i in range (0,4):
+    name = input("enter your name :")
+    lang = input("enter your fav lang :")
+    fav_lang.update({name : lang})
+
+print(fav_lang)
