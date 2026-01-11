@@ -21,9 +21,9 @@ S = {} What is the type of S?
 
 7.If languages of two friends are same; what will happen to the program in problem 6?
 
-8.Can you change the values inside a list which is contained in set S? S = {8, 7, 12, "Harry", [1,2]}"""
+8.Can you change the values inside a list which is contained in set S? S = {8, 7, 12, "omii", [1,2]}"""
 
-"""#1.Write a program to create a dictionary of Hindi words with values as their English translation. 
+#1.Write a program to create a dictionary of Hindi words with values as their English translation. 
 words = {
     "madad"  : "help",
     "kurshi" : "chair",
@@ -75,7 +75,7 @@ for i in range (0,4):
     lang = input("enter your fav lang :")
     fav_lan.update({name : lang})
 
-print(fav_lan)"""
+print(fav_lan)
 
 #7.If languages of two friends are same; what will happen to the program in problem 6?
 fav_lang3 = {
@@ -87,3 +87,6 @@ for i in range (0,4):
     fav_lang3.update({name : lang})
 
 print(fav_lang3)
+
+#8.Can you change the values inside a list which is contained in set S? S = {8, 7, 12, "omii", [1,2]}
+#no as the set don't have indexing method in it
