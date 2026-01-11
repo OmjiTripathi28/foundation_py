@@ -15,3 +15,9 @@ for i in range (0,7):
     nums.add(num)
 
 print(nums)
+
+#3.Can we have a set with 18 (int) and “18” (str) as a value in it?
+mix = set ()
+mix.add(18)
+mix.add("18")
+print(mix)

@@ -23,7 +23,7 @@ S = {} What is the type of S?
 
 8.Can you change the values inside a list which is contained in set S? S = {8, 7, 12, "Harry", [1,2]}"""
 
-#1.Write a program to create a dictionary of Hindi words with values as their English translation. 
+"""#1.Write a program to create a dictionary of Hindi words with values as their English translation. 
 words = {
     "madad"  : "help",
     "kurshi" : "chair",
@@ -45,4 +45,13 @@ print(nums)
 mix = set ()
 mix.add(18)
 mix.add("18")
-print(mix)
+print(mix)"""
+
+#4.What will be the length of following set S:
+
+s = set()
+s.add(20)
+s.add(20.0)
+s.add('20') # length of s after these operations?
+print(s) #length is 2
+
