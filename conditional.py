@@ -52,3 +52,22 @@ if (total_percentage >= 40 and sub1 >= 33 and sub2 >= 33 and sub3 >= 33):
     print("Result: Congratulations! You have PASSED.")
 else:
     print("Result: Sorry, you have FAILED.")
+
+#3A spam comment is defined as a text containing following keywords:“Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program to detect these spams.
+comment = input("Enter your comment: ")
+spam_keywords = ["make a lot of money", "buy now", "subscribe this", "click this"]
+is_spam = False
+
+if ("make a lot of money" in comment.lower()):
+    is_spam = True
+elif ("buy now" in comment.lower()):
+    is_spam = True
+elif ("subscribe this" in comment.lower()):
+    is_spam = True
+elif ("click this" in comment.lower()):
+    is_spam = True
+
+if(is_spam):
+    print("Warning: This comment is SPAM!")
+else:
+    print("This comment is safe.")
