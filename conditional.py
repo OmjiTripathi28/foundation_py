@@ -71,3 +71,18 @@ if(is_spam):
     print("Warning: This comment is SPAM!")
 else:
     print("This comment is safe.")
+
+#4. Write a program to find whether a given username contains less than 10 characters or not.
+username = input ("enter your name :")
+if len(username) > 10:
+    print("not a valid name")
+else:
+    print("valid name and proceed")
+
+#5. Write a program which finds out whether a given name is present in a list or not.
+names = ["omii","rishi","nitesh"]
+name = input("enter your name: ")
+if name in names:
+    print("present")
+else:
+    print("not present")
