@@ -49,3 +49,12 @@ for i in range (2,n):
     if (n % i) == 0:
         print("not prime")
     break; 
+
+#5.Write a program to find the sum of first n natural numbers using while loop.
+n = int(input("enter a number :"))
+sum = 0 
+i = 1
+while (i<n+1):
+    sum= i + sum
+    i+=1
+print(sum)
