@@ -21,7 +21,7 @@ l = ["Harry", "Soham", "Sachin", "Rahul"]
 * * *
 10. Write a program to print multiplication table of n using for loops in reversed
 order.
-"""
+
 
 #1. Write a program to print multiplication table of a given number using for loop.
 n = int(input("enter a number :"))
@@ -57,4 +57,12 @@ i = 1
 while (i<n+1):
     sum= i + sum
     i+=1
-print(sum)
+print(sum)"""
+
+#6. Write a program to calculate the factorial of a given number using for loop.
+n = int(input("enter a number: "))
+fact=1
+for i in range (1,n+1):
+    fact= fact*i
+    i-=1
+print(fact)
