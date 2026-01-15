@@ -19,8 +19,7 @@ l = ["Harry", "Soham", "Sachin", "Rahul"]
 * * *
 * * for n = 3
 * * *
-10. Write a program to print multiplication table of n using for loops in reversed
-order.
+"""
 
 
 #1. Write a program to print multiplication table of a given number using for loop.
@@ -65,7 +64,7 @@ fact=1
 for i in range (1,n+1):
     fact= fact*i
     i-=1
-print(fact)"""
+print(fact)
 
 """7. Write a program to print the following star pattern.
   *
@@ -87,3 +86,14 @@ for i in range(3):
     for j in range(i+1):
         print("*",end="")
     print()
+
+"""
+9. Write a program to print the following star pattern.
+* * *
+* * for n = 3
+* * *"""
+for i in range(n):
+    for j in range(n):
+        print("*",end="")
+    print()
+
