@@ -71,9 +71,19 @@ print(fact)"""
   *
  ***
 ***** for n = 3"""
+n=3
 for i in range (n):
     for s in range(n-i-1):
         print(" ",end=" ")
     for j in range (2*i-1):
         print("*",end=" ")
+    print()
+    
+"""8. Write a program to print the following star pattern:
+*
+**
+*** for n = 3"""
+for i in range(3):
+    for j in range(i+1):
+        print("*",end="")
     print()
