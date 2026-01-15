@@ -57,7 +57,7 @@ i = 1
 while (i<n+1):
     sum= i + sum
     i+=1
-print(sum)"""
+print(sum)
 
 #6. Write a program to calculate the factorial of a given number using for loop.
 n = int(input("enter a number: "))
@@ -65,4 +65,15 @@ fact=1
 for i in range (1,n+1):
     fact= fact*i
     i-=1
-print(fact)
+print(fact)"""
+
+"""7. Write a program to print the following star pattern.
+  *
+ ***
+***** for n = 3"""
+for i in range (n):
+    for s in range(n-i-1):
+        print(" ",end=" ")
+    for j in range (2*i-1):
+        print("*",end=" ")
+    print()
