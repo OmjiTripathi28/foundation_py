@@ -20,3 +20,18 @@ class programmer :
 
 p = programmer("omii","2000000","401303")
 print(p.name,p.salary,p.pin,p.company)
+
+class calculator: 
+    def __init__(self, n):
+        self.n = n
+    def square(self):
+        print(self.n*self.n)
+    def cube(self):
+        print(self.n*self.n*self.n)
+    def squareroot(self):
+        print(self.n**1/2)
+    
+c = calculator(20)
+c.square()
+c.cube()
+c.squareroot()
