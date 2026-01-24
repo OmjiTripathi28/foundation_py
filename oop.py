@@ -11,6 +11,9 @@ and get fare information of train running under Indian Railways.
 6. Can you change the self-parameter inside a class to something else (say
 “harry”). Try changing self to “slf” or “harry” and see the effects.
 """
+
+"""1. Create a class “Programmer” for storing information of few programmers
+working at Microsoft."""
 class programmer :
     company = "Microsoft"
     def __init__(self , name , salary, pin):
@@ -21,6 +24,9 @@ class programmer :
 p = programmer("omii","2000000","401303")
 print(p.name,p.salary,p.pin,p.company)
 
+
+"""2. Write a class “Calculator” capable of finding square, cube and square root of a
+number."""
 class calculator: 
     def __init__(self, n):
         self.n = n
@@ -35,3 +41,11 @@ c = calculator(20)
 c.square()
 c.cube()
 c.squareroot()
+
+"""3. Create a class with a class attribute a; create an object from it and set ‘a’
+directly using ‘object.a = 0’. Does this change the class attribute?"""
+class demo: 
+    a = 5
+
+b = demo()
+b.a = 0 
