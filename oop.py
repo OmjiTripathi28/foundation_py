@@ -11,3 +11,12 @@ and get fare information of train running under Indian Railways.
 6. Can you change the self-parameter inside a class to something else (say
 “harry”). Try changing self to “slf” or “harry” and see the effects.
 """
+class programmer :
+    company = "Microsoft"
+    def __init__(self , name , salary, pin):
+        self.name = name
+        self.salary = salary
+        self.pin = pin
+
+p = programmer("omii","2000000","401303")
+print(p.name,p.salary,p.pin,p.company)
