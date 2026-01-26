@@ -73,3 +73,22 @@ c.square()
 c.cube()
 c.squareroot()
 
+"""5. Write a Class ‘Train’ which has methods to book a ticket, get status (no of seats)
+and get fare information of train running under Indian Railways."""
+class Train :
+    def __init__(self,trainNo):
+        self.trainNo = trainNo
+        print(f"your Train No. is {trainNo}")
+        
+    def getStatus(self):
+        print(f"Train No. {self.trainNo} is running on time")
+        
+    
+    def getPath(self,fro,to):
+        print(f"train no {self.trainNo} is running from {fro} to {to}")
+        
+train = Train(54321)
+train.getStatus()
+train.getPath("mumbai","VGLJ")
+
+ 
