@@ -9,7 +9,7 @@ directly using ‘object.a = 0’. Does this change the class attribute?
 5. Write a Class ‘Train’ which has methods to book a ticket, get status (no of seats)
 and get fare information of train running under Indian Railways.
 6. Can you change the self-parameter inside a class to something else (say
-“harry”). Try changing self to “slf” or “harry” and see the effects.
+“omii”). Try changing self to “slf” or “omii” and see the effects.
 """
 
 """1. Create a class “Programmer” for storing information of few programmers
@@ -91,4 +91,22 @@ train = Train(54321)
 train.getStatus()
 train.getPath("mumbai","VGLJ")
 
- 
+
+"""6. Can you change the self-parameter inside a class to something else (say
+“Omii”). Try changing self to “slf” or “omii” and see the effects."""
+
+class Train :
+    def __init__(sef,trainNo):
+        sef.trainNo = trainNo
+        print(f"your Train No. is {trainNo}")
+        
+    def getStatus(omii):
+        print(f"Train No. {omii.trainNo} is running on time")
+        
+    
+    def getPath(self,fro,to):
+        print(f"train no {self.trainNo} is running from {fro} to {to}")
+        
+train = Train(54321)
+train.getStatus()
+train.getPath("mumbai","VGLJ")
