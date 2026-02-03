@@ -7,20 +7,21 @@ class Atm:
     def menu(self):
         user_input = input(
             """
-            1. create pin
-            2. change pin
-            3. check balance
-            4. withdraw 
-            5. exit"""
+1. create pin
+2. change pin
+3. check balance
+4. withdraw 
+5. exit 
+: """
         )
 
-        if user_input == 1:
+        if user_input == "1":
             self.create_pin()
-        elif user_input == 2:
+        elif user_input == "2":
             self.change_pin()
-        elif user_input == 3:
+        elif user_input == "3":
             self.check_balance()
-        elif user_input == 4:
+        elif user_input == "4":
             self.withdraw()
         else:
             exit()
@@ -56,4 +57,6 @@ class Atm:
         else:
             print("invalid amount")
             self.menu()
-            
+
+
+p1 = Atm()
