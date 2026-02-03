@@ -25,4 +25,35 @@ class Atm:
         else:
             exit()
 
-    
+    def create_pin(self):
+        pin = input("enter your pin : ")
+        self.pin = pin
+        balance = int(input("enter your balance : "))
+        self.balance = balance
+        print("PIN CREATED SUCCESSFULLY !!")
+
+    def change_pin(self):
+        old_pin = input("enter your old pin : ")
+        if old_pin == self.pin :
+            new_pin = input("enter your new pin : ")
+            self.pin = new_pin 
+        else:
+            print("wrong old pin")
+            self.menu()
+
+    def check_balance(self):
+        pin = input("enter your pin : ")
+        if pin == self.pin :
+            print(f"your account balance is {self.balance}")
+        else:
+            print("wrong pin")
+            self.menu()
+
+    def withdraw(self):
+        amount = input("enter the amount you wanna withdraw : ")
+        if amount<= self.balance :
+            print(f"you ramaining amount is {self.balance - amount}")
+        else:
+            print("invalid amount")
+            self.menu()
+            
